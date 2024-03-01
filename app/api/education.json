@@ -1,0 +1,140 @@
+{
+  "en": {
+    "title": "Education",
+    "education": [
+      {
+        "id": 0,
+        "title": "FULL STACK WEB DEVELOPER REACT.JS",
+        "center": "FUNDACIÓ ESPLAI",
+        "location": "BARCELONA - SPAIN",
+        "duration": "2019",
+        "tags": [
+          "React.js",
+          "JavaScript",
+          "API Rest",
+          "Git",
+          "Node.js",
+          "MongoDB",
+          "PostGres",
+          "CSS",
+          "HTML 5",
+          "Jquery"
+        ]
+      },
+      {
+        "id": 1,
+        "title": "ENVIROMENTAL SCIENCE",
+        "center": "INSTITUT LA GUINEUETA",
+        "location": "BARCELONA - SPAIN",
+        "duration": "2010 / 2012",
+        "tags": [
+          "Environmental Science",
+          "Ecology",
+          "Climate Change",
+          "Sustainability",
+          "Environmental Policy",
+          "Pest Control",
+          "Pollution Control",
+          "Natural Resource Management",
+          "Environmental Law",
+          "Environmental Education",
+          "Water Quality",
+          "Air Quality",
+          "Soil Science"
+        ]
+      }
+    ]
+  },
+  "es": {
+    "title": "Estudios",
+    "education": [
+      {
+        "id": 0,
+        "title": "DESARROLLADOR WEB FULL STACK CON REACT.JS",
+        "center": "FUNDACIÓ ESPLAI",
+        "location": "BARCELONA - ESPAÑA",
+        "duration": "2019",
+        "tags": [
+          "React.js",
+          "JavaScript",
+          "API Rest",
+          "Git",
+          "Node.js",
+          "MongoDB",
+          "PostGres",
+          "CSS",
+          "HTML 5",
+          "Jquery"
+        ]
+      },
+      {
+        "id": 1,
+        "title": "SALUD AMBIENTAL",
+        "center": "INSTITUT LA GUINEUETA",
+        "location": "BARCELONA - ESPAÑA",
+        "duration": "2010 / 2012",
+        "tags": [
+          "Ciencias Ambientales",
+          "Ecología",
+          "Cambio Climático",
+          "Sostenibilidad",
+          "Política Ambiental",
+          "Control de Plagas",
+          "Control de la Contaminación",
+          "Gestión de Recursos Naturales",
+          "Derecho Ambiental",
+          "Educación Ambiental",
+          "Calidad del Agua",
+          "Calidad del Aire",
+          "Ciencia del Suelo"
+        ]
+      }
+    ]
+  },
+  "pt": {
+    "title": "Estudos",
+    "education": [
+      {
+        "id": 0,
+        "title": "DESENVOLVEDOR WEB FULL STACK COM REACT.JS",
+        "center": "FUNDACIÓ ESPLAI",
+        "location": "BARCELONA - ESPANHA",
+        "duration": "2019",
+        "tags": [
+          "React.js",
+          "JavaScript",
+          "API Rest",
+          "Git",
+          "Node.js",
+          "MongoDB",
+          "PostGres",
+          "CSS",
+          "HTML 5",
+          "Jquery"
+        ]
+      },
+      {
+        "id": 1,
+        "title": "SAUDE AMBIENTAL",
+        "center": "INSTITUT LA GUINEUETA",
+        "location": "BARCELONA - ESPANHA",
+        "duration": "2010 / 2012",
+        "tags": [
+          "Ciências Ambientais",
+          "Ecologia",
+          "Mudanças Climáticas",
+          "Sustentabilidade",
+          "Política Ambiental",
+          "Controle de Pragas",
+          "Controle da Poluição",
+          "Gestão de Recursos Naturais",
+          "Direito Ambiental",
+          "Educação Ambiental",
+          "Qualidade da Água",
+          "Qualidade do Ar",
+          "Ciência do Solo"
+        ]
+      }
+    ]
+  }
+}

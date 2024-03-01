@@ -1,0 +1,68 @@
+{
+  "en": {
+    "name": "Tiago Oliver",
+    "position": "Frontend Developer",
+    "email": {
+      "title": "Email",
+      "value": "tiagoliver@protonmail.com"
+    },
+    "location": {
+      "title": "Location",
+      "value": "Barcelona - Spain"
+    },
+    "workPermit": {
+      "title": "Work permit",
+      "value": ["Europe", "South America"]
+    },
+    "social": {
+      "linkedIn": {
+        "title": "Tiago Oliver",
+        "value": "https://www.linkedin.com/in/tiago-pinheiro-freitas/"
+      }
+    }
+  },
+  "es": {
+    "name": "Tiago Oliver",
+    "position": "Frontend Developer",
+    "email": {
+      "title": "Email",
+      "value": "tiagoliver@protonmail.com"
+    },
+    "location": {
+      "title": "Ubicación",
+      "value": "Barcelona - España"
+    },
+    "workPermit": {
+      "title": "Permiso de trabajo",
+      "value": ["Europa", "Sudamerica"]
+    },
+    "social": {
+      "linkedIn": {
+        "title": "Tiago Oliver",
+        "value": "https://www.linkedin.com/in/tiago-pinheiro-freitas/"
+      }
+    }
+  },
+  "pt": {
+    "name": "Tiago Oliver",
+    "position": "Frontend Developer",
+    "email": {
+      "title": "Email",
+      "value": "tiagoliver@protonmail.com"
+    },
+    "location": {
+      "title": "Residencia",
+      "value": "Barcelona - Espanha"
+    },
+    "workPermit": {
+      "title": "Visto de trabalho",
+      "value": ["Europa", "América do Sul"]
+    },
+    "social": {
+      "linkedIn": {
+        "title": "Tiago Oliver",
+        "value": "https://www.linkedin.com/in/tiago-pinheiro-freitas/"
+      }
+    }
+  }
+}

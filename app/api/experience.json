@@ -1,0 +1,283 @@
+{
+  "en": {
+    "title": "Work Experience",
+    "experience": [
+      {
+        "id": 0,
+        "title": "FRONTEND DEVELOPER",
+        "center": "IMMFLY GROUP",
+        "location": "BARCELONA - SPAIN",
+        "duration": "MARCH 2023 / CURRENT",
+        "keyAchivements": [
+          "Developed and maintained responsive web applications using ReactJS, resulting in improved user experience and increased engagement.",
+          "Collaborated with cross-functional teams to design and implement new features.",
+          "Implemented best practices for code quality, including unit testing and code reviews.",
+          "Migrate of legacy codebase to TypeScript, enhancing maintainability and scalability of the application.",
+          "Implement new features and components using StyledComponent as styling tool.",
+          "Strong understanding of RESTful API principles, with hands-on experience in integrating frontend applications with backend services."
+        ],
+        "tags": [
+          "React.js",
+          "StyledComponents",
+          "TypeScript",
+          "Git",
+          "Remote Work",
+          "Jest",
+          "CSS",
+          "JavaScript",
+          "API REST",
+          "AGILE"
+        ]
+      },
+      {
+        "id": 1,
+        "title": "FRONTEND DEVELOPER",
+        "center": "QIDA HOMECARE",
+        "location": "BARCELONA - SPAIN",
+        "duration": "JUNE 2019 / FEBRUARY 2022",
+        "keyAchivements": [
+          "Develop and maintain responsive web applications using ReactJS, leveraging modern best practices to ensure optimal user experience and engagement.",
+          "Collaborate closely with cross-functional teams, including designers and backend developers, to conceptualize, design, and implement new features and functionalities.",
+          "Implement and enforce best practices for code quality, including comprehensive unit testing, code reviews, and documentation.",
+          "Proficiency in creating PDF documents with Odoo, leveraging Qweb templating engine to generate dynamic and customizable reports.",
+          "Experience working with MobX State Tree for state management, ensuring efficient data flow and application state synchronization.",
+          "Strong understanding of RESTful API principles, with hands-on experience in integrating frontend applications with backend services."
+        ],
+        "tags": [
+          "React.js",
+          "StyledComponents",
+          "Odoo",
+          "Git",
+          "Remote Work",
+          "Jest",
+          "CSS",
+          "JavaScript",
+          "AGILE",
+          "Qweb",
+          "Python",
+          "Mobx",
+          "API REST",
+          "React-hook-form"
+        ]
+      },
+      {
+        "id": 2,
+        "title": "TEAM LEADER",
+        "center": "SELLYTEL GROUP SPAIN",
+        "location": "BARCELONA - SPAIN",
+        "duration": "NOVEMBER 2013 / MARCH 2017",
+        "keyAchivements": [
+          "Successfully led a diverse team of 10 members from various cultural backgrounds and countries, fostering a collaborative and inclusive work environment.",
+          "Streamlined support operations by implementing efficient scheduling systems, resulting in improved team productivity and timely resolution of customer queries.",
+          "Mentored team members in resolving complex technical issues related to Google Workspace services, enhancing their troubleshooting skills.",
+          "Facilitated regular team meetings and performance evaluations, providing constructive feedback and recognition to team members.",
+          "Developed and implemented standardized procedures and documentation for common support issues, reducing escalations and enhancing the overall customer experience.",
+          "Acted as a liaison between frontline support agents and upper management, effectively communicating team accomplishments, challenges, and resource requirements"
+        ],
+        "tags": [
+          "Google Workspace",
+          "Support Management",
+          "Team Leadership",
+          "Cross-functional Collaboration",
+          "Troubleshooting",
+          "Training and Development",
+          "Performance Evaluation",
+          "Customer Satisfaction",
+          "Process Improvement",
+          "Communication Skills",
+          "Technical Support",
+          "Problem Solving",
+          "Workflow Optimization",
+          "Service Delivery"
+        ]
+      }
+    ]
+  },
+  "es": {
+    "title": "Experiencia Laboral",
+    "experience": [
+      {
+        "id": 0,
+        "title": "DESARROLLADOR FRONTEND",
+        "center": "GRUPO IMMFLY",
+        "location": "BARCELONA - ESPAÑA",
+        "duration": "MARZO 2023 / ACTUAL",
+        "keyAchivements": [
+          "Desarrollo y mantenimiento de aplicaciones web receptivas utilizando ReactJS, lo que resultó en una mejor experiencia de usuario y un mayor compromiso.",
+          "Colaborar estrechamente con otros equipos, para diseñar e implementar nuevas funcionalidades.",
+          "Implementar prácticas para la calidad del código, incluidas pruebas unitarias y revisiones de código.",
+          "Migración de código a TypeScript, mejorando la mantenibilidad y escalabilidad de la aplicación.",
+          "Implementar nuevas funcionalidades y componentes utilizando StyledComponent como herramienta de estilo.",
+          "Conocimiento de los principios API REST, con experiencia práctica en la integración de aplicaciones frontend con servicios backend."
+        ],
+        "tags": [
+          "React.js",
+          "StyledComponents",
+          "TypeScript",
+          "Git",
+          "Trabajo Remoto",
+          "Jest",
+          "CSS",
+          "JavaScript",
+          "API REST",
+          "ÁGIL"
+        ]
+      },
+      {
+        "id": 1,
+        "title": "DESARROLLADOR FRONTEND",
+        "center": "QIDA HOMECARE",
+        "location": "BARCELONA - ESPAÑA",
+        "duration": "JUNIO 2019 / FEBRERO 2022",
+        "keyAchivements": [
+          "Desarrollo y mantenimiento de aplicaciones web receptivas utilizando ReactJS, aprovechando las mejores prácticas modernas para garantizar una experiencia óptima del usuario y un mayor compromiso.",
+          "Colaborar estrechamente con otros equipos, incluidos diseñadores y desarrolladores backend, para conceptualizar, diseñar e implementar nuevas funcionalidades.",
+          "Implementar prácticas para la calidad del código, incluidas pruebas unitarias exhaustivas, revisiones de código y documentación.",
+          "Dominio en la creación de documentos PDF con Odoo, aprovechando el motor de plantillas Qweb para generar informes dinámicos y personalizables.",
+          "Experiencia trabajando con MobX State Tree para la gestión de estado, asegurando un flujo de datos eficiente y la sincronización del estado de la aplicación.",
+          "Conocimiento de los principios API REST, con experiencia práctica en la integración de aplicaciones frontend con servicios backend."
+        ],
+        "tags": [
+          "React.js",
+          "StyledComponents",
+          "Odoo",
+          "Git",
+          "Trabajo Remoto",
+          "Jest",
+          "CSS",
+          "JavaScript",
+          "ÁGIL",
+          "Qweb",
+          "Python",
+          "Mobx",
+          "API REST",
+          "React-hook-form"
+        ]
+      },
+      {
+        "id": 2,
+        "title": "LÍDER DE EQUIPO",
+        "center": "GRUPO SELLYTEL ESPAÑA",
+        "location": "BARCELONA - ESPAÑA",
+        "duration": "NOVIEMBRE 2013 / MARZO 2017",
+        "keyAchivements": [
+          "Liderar con éxito un equipo diverso de 10 miembros de diferentes orígenes culturales y países, fomentando un ambiente de trabajo colaborativo e inclusivo.",
+          "Optimizar las operaciones de soporte implementando sistemas de programación eficientes, lo que resultó en una mayor productividad del equipo y una resolución oportuna de las consultas de los clientes.",
+          "Mentorización a los miembros del equipo en la resolución de problemas técnicos complejos relacionados con los servicios de Google Workspace, mejorando sus habilidades de resolución de problemas.",
+          "Realización de reuniones de equipo regulares y evaluaciones de desempeño, brindando \"Feedback\" constructivo y reconocimiento a los miembros del equipo.",
+          "Desarrollo e implementación de procedimientos y documentación estandarizados para problemas de soporte comunes, reduciendo escaladas y mejorando la experiencia general del cliente.",
+          "Actuar como enlace entre los agentes de soporte de primera línea y la alta dirección, comunicando de manera efectiva los logros del equipo, los desafíos y los requisitos de recursos."
+        ],
+        "tags": [
+          "Google Workspace",
+          "Gestión de Soporte",
+          "Liderazgo de Equipos",
+          "Colaboración Multifuncional",
+          "Resolución de Problemas",
+          "Capacitación y Desarrollo",
+          "Evaluación de Desempeño",
+          "Satisfacción del Cliente",
+          "Mejora de Procesos",
+          "Habilidades de Comunicación",
+          "Soporte Técnico",
+          "Optimización de Flujo de Trabajo",
+          "Entrega de Servicio"
+        ]
+      }
+    ]
+  },
+  "pt": {
+    "title": "Experiência Profissional",
+    "experience": [
+      {
+        "id": 0,
+        "title": "DESENVOLVEDOR FRONTEND",
+        "center": "GRUPO IMMFLY",
+        "location": "BARCELONA - ESPANHA",
+        "duration": "MARÇO 2023 / ATUAL",
+        "keyAchivements": [
+          "Desenvolver e manter aplicações web responsivas usando ReactJS, resultando em uma melhor experiência do usuário e maior engajamento.",
+          "Colaborar com equipes multifuncionais para projetar e implementar novos recursos.",
+          "Implementar melhores práticas para qualidade de código, incluindo testes unitários e revisões de código.",
+          "Migração de código legado para TypeScript, melhorando a manutenibilidade e escalabilidade da aplicação.",
+          "Implementar novos recursos e componentes usando StyledComponent como ferramenta de estilo.",
+          "Compreensão sólida dos princípios de API REST, com experiência prática na integração de aplicativos frontend com serviços backend."
+        ],
+        "tags": [
+          "React.js",
+          "StyledComponents",
+          "TypeScript",
+          "Git",
+          "Trabalho Remoto",
+          "Jest",
+          "CSS",
+          "JavaScript",
+          "API REST",
+          "ÁGIL"
+        ]
+      },
+      {
+        "id": 1,
+        "title": "DESENVOLVEDOR FRONTEND",
+        "center": "QIDA HOMECARE",
+        "location": "BARCELONA - ESPANHA",
+        "duration": "JUNHO 2019 / FEVEREIRO 2022",
+        "keyAchivements": [
+          "Desenvolver e manter aplicações web responsivas usando ReactJS, aproveitando as melhores práticas modernas para garantir uma experiência ideal do usuário e maior engajamento.",
+          "Colaborar estreitamente com equipes multifuncionais, incluindo designers e desenvolvedores de backend, para conceituar, projetar e implementar novos recursos e funcionalidades.",
+          "Implementar e apliquei melhores práticas para qualidade de código, incluindo testes unitários abrangentes, revisões de código e documentação.",
+          "Proficiência na criação de documentos PDF com Odoo, aproveitando o motor de template Qweb para gerar relatórios dinâmicos e personalizáveis.",
+          "Conhecimento do MobX State Tree para gerenciamento de estado, garantindo um fluxo de dados eficiente e sincronização de estado do aplicativo.",
+          "Compreensão sólida dos princípios de API REST, com experiência prática na integração de aplicativos frontend com serviços backend."
+        ],
+        "tags": [
+          "React.js",
+          "StyledComponents",
+          "Odoo",
+          "Git",
+          "Trabalho Remoto",
+          "Jest",
+          "CSS",
+          "JavaScript",
+          "ÁGIL",
+          "Qweb",
+          "Python",
+          "Mobx",
+          "API REST",
+          "React-hook-form"
+        ]
+      },
+      {
+        "id": 2,
+        "title": "LÍDER DE EQUIPE",
+        "center": "GRUPO SELLYTEL ESPANHA",
+        "location": "BARCELONA - ESPANHA",
+        "duration": "NOVEMBRO 2013 / MARÇO 2017",
+        "keyAchivements": [
+          "Liderar com sucesso uma equipe diversificada de 10 membros de diferentes origens culturais e países, promovendo um ambiente de trabalho colaborativo e inclusivo.",
+          "Otimizar as operações de suporte implementando sistemas de agendamento eficientes, resultando em maior produtividade da equipe e resolução oportuna de consultas de clientes.",
+          "Mentorizar membros da equipe na resolução de problemas técnicos complexos relacionados aos serviços do Google Workspace, aprimorando suas habilidades de resolução de problemas.",
+          "Facilitar reuniões regulares da equipe e avaliações de desempenho, fornecendo feedback construtivo e reconhecimento aos membros da equipe.",
+          "Desenvolver e implementar procedimentos padronizados e documentação para problemas de suporte comuns, reduzindo escalonamentos e aprimorando a experiência geral do cliente.",
+          "Atuar como elo entre os agentes de suporte de primeira linha e a alta gerência, comunicando efetivamente os feitos da equipe, desafios e requisitos de recursos."
+        ],
+        "tags": [
+          "Google Workspace",
+          "Gestão de Suporte",
+          "Liderança de Equipe",
+          "Colaboração Multifuncional",
+          "Resolução de Problemas",
+          "Treinamento e Desenvolvimento",
+          "Avaliação de Desempenho",
+          "Satisfação do Cliente",
+          "Melhoria de Processos",
+          "Habilidades de Comunicação",
+          "Suporte Técnico",
+          "Resolução de Problemas",
+          "Otimização de Fluxo de Trabalho",
+          "Entrega de Serviço"
+        ]
+      }
+    ]
+  }
+}
