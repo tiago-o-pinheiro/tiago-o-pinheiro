@@ -1,10 +1,12 @@
 /* eslint-disable react/no-unescaped-entities */
+"use client";
 import Link from "next/link";
 import { H, Hprops } from "../components/H";
 import { P } from "../components/P";
 import { Section } from "../components/Section";
 import { PiPushPinLight } from "react-icons/pi";
 import React from "react";
+import { useApi } from "../api/use-api";
 
 type EducationSectionProps = {
   id: number;
@@ -16,49 +18,21 @@ type EducationSectionProps = {
   isLast: boolean;
 };
 
-const education = [
-  {
-    id: 0,
-    title: "FULL STACK WEB DEVELOPER REACT.JS",
-    center: "FUNDACIÓ ESPLAI",
-    location: "BARCELONA - SPAIN",
-    duration: "2019",
-    tags: [
-      "React.js",
-      "JavaScript",
-      "API Rest",
-      "Git",
-      "Node.js",
-      "MongoDB",
-      "PostGres",
-      "CSS",
-      "HTML 5",
-      "Jquery",
-    ],
-  },
-  {
-    id: 1,
-    title: "ENVIROMENTAL SCIENCE",
-    center: "INSTITUT LA GUINEUETA",
-    location: "BARCELONA - SPAIN",
-    duration: "2010 / 2012",
-    tags: [
-      "Environmental Science",
-      "Ecology",
-      "Climate Change",
-      "Sustainability",
-      "Environmental Policy",
-      "Pest Control",
-      "Pollution Control",
-      "Natural Resource Management",
-      "Environmental Law",
-      "Environmental Education",
-      "Water Quality",
-      "Air Quality",
-      "Soil Science",
-    ],
-  },
-];
+type Education = {
+  id: number;
+  title: string;
+  center: string;
+  location: string;
+  duration: string;
+  keyAchivements?: string[];
+  tags: string[];
+  isLast: boolean;
+};
+
+type Section = {
+  title: string;
+  education: Education[];
+};
 
 const Tag = ({ value, isLast }: { value: string; isLast: boolean }) => {
   return (
@@ -104,6 +78,8 @@ const EducationSection = ({
 };
 
 export const Education = () => {
+  const section = useApi("education");
+  const { title, education } = section as Section;
   return (
     <Section styles="px-2 md:px-8 w-full max-w-screen-lg mx-auto relative -top-12 md:top-0">
       <div className="grid grid-cols-1">
@@ -111,7 +87,7 @@ export const Education = () => {
         <div className="pb-2 flex flex-1 gap-2 ">
           <div className="flex-1">
             <H type={Hprops.h3} styles="pt-2 pb-2 font-bold text-gray-600">
-              Education
+              {title}
             </H>
             {education.map((item, index) => (
               <EducationSection
