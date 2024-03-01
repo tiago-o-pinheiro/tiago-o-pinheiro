@@ -5,15 +5,18 @@ import { Experience } from "./sections/Experience";
 import { Header } from "./sections/Header";
 import { Links } from "./sections/Links";
 import { Education } from "./sections/Education";
+import { GlobalStore } from "./store/GlobalStore";
 
 export default function Page() {
   return (
-    <Container styles="p-4">
-      <Header />
-      <Links />
-      <About />
-      <Experience />
-      <Education />
-    </Container>
+    <GlobalStore>
+      <Container styles="p-4">
+        <Header />
+        <Links />
+        <About />
+        <Experience />
+        <Education />
+      </Container>
+    </GlobalStore>
   );
 }
