@@ -4,19 +4,28 @@ import { About } from "./sections/About";
 import { Experience } from "./sections/Experience";
 import { Header } from "./sections/Header";
 import { Links } from "./sections/Links";
-import { Education } from "./sections/Education";
 import { GlobalStore } from "./store/GlobalStore";
+import { SettingsBar } from "./components/SettingsBar";
+import { Footer } from "./sections/Footer";
+import { Personal } from "./sections/Personal";
+import { Languagues } from "./sections/Languages";
+import { SkillsSection } from "./sections/Skills";
 
 export default function Page() {
   return (
     <GlobalStore>
-      <Container styles="p-4">
+      <Container styles="p-0">
+        <SettingsBar />
         <Header />
         <Links />
         <About />
-        <Experience />
-        <Education />
+        <Languagues />
+        <SkillsSection />
+        <Experience type="experience" />
+        <Experience type="education" />
+        <Personal />
       </Container>
+      <Footer />
     </GlobalStore>
   );
 }

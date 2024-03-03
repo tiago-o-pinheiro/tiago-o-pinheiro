@@ -12,7 +12,6 @@ import {
 import { useApi } from "../api/use-api";
 
 type Section = {
-  name: string;
   email: {
     title: string;
     value: string;
@@ -39,7 +38,7 @@ const Tags = ({ tag, isLast }: { tag: string; isLast: boolean }) => {
 
 export const Links = () => {
   const section = useApi("resume");
-  const { name, email, location, workPermit, social } = section as Section;
+  const { email, location, workPermit, social } = section as Section;
 
   return (
     <Section styles="md:px-4 px-2 relative -top-14 md:-top-6 max-w-screen-lg mx-auto">
@@ -53,7 +52,7 @@ export const Links = () => {
               target="_blank"
               className="text-sm"
             >
-              LinkedIn
+              Tiago Pinheiro
             </Link>
           </div>
         </div>
