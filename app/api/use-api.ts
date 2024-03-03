@@ -4,6 +4,9 @@ import about from "./about.json";
 import education from "./education.json";
 import experience from "./experience.json";
 import resume from "./resume.json";
+import personal from "./personal.json";
+import languages from "./languages.json";
+import skills from "./skills.json";
 
 type CommonProps = {
   id: number;
@@ -40,6 +43,16 @@ type Profile = {
   };
 };
 
+type Language = {
+  name: string;
+  proficiency: string;
+};
+
+type Skills = {
+  name: string;
+  category: string;
+};
+
 type SectionProps = {
   about: {
     [key: string]: {
@@ -50,7 +63,7 @@ type SectionProps = {
   education: {
     [key: string]: {
       title: string;
-      education: CommonProps[];
+      experience: CommonProps[];
     };
   };
   experience: {
@@ -59,6 +72,22 @@ type SectionProps = {
       experience: CommonProps[];
     };
   };
+  personal: {
+    [key: string]: {
+      title: string;
+      content: string;
+    };
+  };
+  languages: {
+    en: Language[];
+    es: Language[];
+    pt: Language[];
+  };
+  skills: {
+    en: Skills[];
+    es: Skills[];
+    pt: Skills[];
+  };
   resume: Profile;
 };
 
@@ -66,10 +95,20 @@ const SECTION: SectionProps = {
   about,
   education,
   experience,
+  personal,
   resume,
+  languages,
+  skills,
 };
 
-type SectionKey = "about" | "education" | "experience" | "resume";
+type SectionKey =
+  | "about"
+  | "education"
+  | "experience"
+  | "resume"
+  | "personal"
+  | "languages"
+  | "skills";
 
 export const useApi = (section: SectionKey) => {
   const { language } = useGlobalContext();
