@@ -1,11 +1,13 @@
 import { ReactNode } from "react";
-import { Colors, TONE } from "../theme/palette";
+import React from "react";
+import { useTranslation } from "../hooks/use-translation";
 
 type CompomentProps = {
   color?: string;
-  children: ReactNode;
+  children?: ReactNode;
   type: Hprops;
   styles?: string;
+  value?: string | undefined;
 };
 
 enum Sizes {
@@ -24,8 +26,20 @@ export enum Hprops {
   h5 = "h5",
 }
 
-export const H = ({ color = "", type, styles, children }: CompomentProps) => {
+export const H = ({
+  color = "",
+  type,
+  styles,
+  children,
+  value,
+}: CompomentProps) => {
+  const translation = useTranslation({ key: value });
   const className = `${color} ${styles} ${Sizes[Hprops[type]]} mb-2 font-sans`;
   const UI = Hprops[type];
+
+  if (translation) {
+    return <UI className={className}>{translation}</UI>;
+  }
+
   return <UI className={className}>{children}</UI>;
 };
