@@ -24,7 +24,7 @@ export const GlobalStore: React.FC<{ children: React.ReactNode }> = ({
   children,
 }) => {
   const [theme, setTheme] = useState<string>("light");
-  const [lang, setLang] = useState<string>("es");
+  const [lang, setLang] = useState<string>("en");
 
   const context = {
     language: {
