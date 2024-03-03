@@ -1,7 +1,7 @@
 {
   "en": {
     "title": "Education",
-    "education": [
+    "experience": [
       {
         "id": 0,
         "title": "FULL STACK WEB DEVELOPER REACT.JS",
@@ -47,7 +47,7 @@
   },
   "es": {
     "title": "Estudios",
-    "education": [
+    "experience": [
       {
         "id": 0,
         "title": "DESARROLLADOR WEB FULL STACK CON REACT.JS",
@@ -93,7 +93,7 @@
   },
   "pt": {
     "title": "Estudos",
-    "education": [
+    "experience": [
       {
         "id": 0,
         "title": "DESENVOLVEDOR WEB FULL STACK COM REACT.JS",

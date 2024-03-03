@@ -1,0 +1,62 @@
+{
+  "en": [
+    { "name": "React", "category": "Core Skills" },
+    { "name": "JavaScript", "category": "Core Skills" },
+    { "name": "TypeScript", "category": "Core Skills" },
+    { "name": "StyledComponents", "category": "Core Skills" },
+    { "name": "React Hook Forms", "category": "Core Skills" },
+    { "name": "CSS", "category": "Core Skills" },
+    { "name": "HTML", "category": "Core Skills" },
+    { "name": "LESS", "category": "Core Skills" },
+    { "name": "(Single Page Application) - SPA", "category": "Core Skills" },
+    { "name": "API REST", "category": "Core Skills" },
+    { "name": "React Hooks", "category": "Core Skills" },
+    { "name": "NodeJS", "category": "Additional Skills" },
+    { "name": "Python", "category": "Additional Skills" },
+    { "name": "MongoDB", "category": "Additional Skills" },
+    { "name": "Express", "category": "Additional Skills" },
+    { "name": "Figma", "category": "Additional Skills" }
+  ],
+  "es": [
+    { "name": "React", "category": "Competencias básicas" },
+    { "name": "JavaScript", "category": "Competencias básicas" },
+    { "name": "TypeScript", "category": "Competencias básicas" },
+    { "name": "StyledComponents", "category": "Competencias básicas" },
+    { "name": "React Hook Forms", "category": "Competencias básicas" },
+    { "name": "CSS", "category": "Competencias básicas" },
+    { "name": "HTML", "category": "Competencias básicas" },
+    { "name": "LESS", "category": "Competencias básicas" },
+    {
+      "name": "(Single Page Application) - SPA",
+      "category": "Competencias básicas"
+    },
+    { "name": "API REST", "category": "Competencias básicas" },
+    { "name": "React Hooks", "category": "Competencias básicas" },
+    { "name": "NodeJS", "category": "Competencias adicionales" },
+    { "name": "Python", "category": "Competencias adicionales" },
+    { "name": "MongoDB", "category": "Competencias adicionales" },
+    { "name": "Express", "category": "Competencias adicionales" },
+    { "name": "Figma", "category": "Competencias adicionales" }
+  ],
+  "pt": [
+    { "name": "React", "category": "Competências essenciais" },
+    { "name": "JavaScript", "category": "Competências essenciais" },
+    { "name": "TypeScript", "category": "Competências essenciais" },
+    { "name": "StyledComponents", "category": "Competências essenciais" },
+    { "name": "React Hook Forms", "category": "Competências essenciais" },
+    { "name": "CSS", "category": "Competências essenciais" },
+    { "name": "HTML", "category": "Competências essenciais" },
+    { "name": "LESS", "category": "Competências essenciais" },
+    {
+      "name": "(Single Page Application) - SPA",
+      "category": "Competências essenciais"
+    },
+    { "name": "API REST", "category": "Competências essenciais" },
+    { "name": "React Hooks", "category": "Competências essenciais" },
+    { "name": "NodeJS", "category": "Competências adicionais" },
+    { "name": "Python", "category": "Competências adicionais" },
+    { "name": "MongoDB", "category": "Competências adicionais" },
+    { "name": "Express", "category": "Competências adicionais" },
+    { "name": "Figma", "category": "Competências adicionais" }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "en": [
+    { "name": "English", "proficiency": "Fluent" },
+    { "name": "Catalan", "proficiency": "Fluent" },
+    { "name": "Spanish", "proficiency": "Native Speaker" },
+    { "name": "Portuguese", "proficiency": "Native Speaker" }
+  ],
+  "es": [
+    { "name": "Inglés", "proficiency": "Fluido" },
+    { "name": "Catalán", "proficiency": "Fluido" },
+    { "name": "Español", "proficiency": "Nativo" },
+    { "name": "Portugués", "proficiency": "Nativo" }
+  ],
+  "pt": [
+    { "name": "Inglês", "proficiency": "Fluente" },
+    { "name": "Catalão", "proficiency": "Fluente" },
+    { "name": "Espanhol", "proficiency": "Nativo" },
+    { "name": "Português", "proficiency": "Nativo" }
+  ]
+}
