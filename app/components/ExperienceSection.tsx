@@ -29,19 +29,22 @@ export const ExperienceSection = ({
     <ul className="md:pl-4">
       <li>
         <div className="gap-2 items-center font-mono pb-2">
-          <H type={Hprops.h5} styles="font-bold text-gray-600 font-mono">
+          <H
+            type={Hprops.h5}
+            styles="font-bold text-gray-600 dark:text-gray-300 font-mono dark:text-white"
+          >
             {title}
           </H>
           <div className="flex md:gap-2 item-start md:items-end flex-col md:flex-row font-mono">
-            <P styles="text-gray-600">{center}</P>
-            <P styles="text-gray-600 hidden md:block">/</P>
-            <P styles="text-gray-600 gap-2">{location}</P>
+            <P styles="text-gray-600 dark:text-gray-300">{center}</P>
+            <P styles="text-gray-600 dark:text-gray-300 hidden md:block">/</P>
+            <P styles="text-gray-600 dark:text-gray-300 gap-2">{location}</P>
           </div>
-          <P styles="text-gray-400 text-sm">{duration}</P>
+          <P styles="text-gray-400 dark:text-gray-300 text-sm">{duration}</P>
         </div>
 
         {keyAchivements && (
-          <ul className="list-disc pl-4 text-gray-600 pb-4">
+          <ul className="list-disc pl-4 text-gray-600 dark:text-gray-300 pb-4">
             {keyAchivements.map((achivement: string, index: number) => (
               <li key={index}>{achivement}</li>
             ))}
@@ -49,7 +52,7 @@ export const ExperienceSection = ({
         )}
 
         <P
-          styles="text-md text-gray-600"
+          styles="text-md text-gray-600 dark:text-gray-300"
           value="component.experience.skills-acquired"
         />
         <div className="flex flex-wrap gap-2">

@@ -17,11 +17,11 @@ export const Personal = () => {
     <Section styles="px-2 md:px-8 w-full max-w-screen-lg mx-auto relative -top-12 md:top-0">
       <H
         type={Hprops.h3}
-        styles="py-2 font-bold text-gray-600"
+        styles="py-2 font-bold text-gray-600 dark:text-white"
         value="section.personal"
       />
       <div
-        className="md:pl-4"
+        className="md:pl-4 dark:text-gray-200"
         dangerouslySetInnerHTML={{ __html: content }}
       ></div>
     </Section>

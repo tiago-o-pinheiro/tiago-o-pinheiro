@@ -37,7 +37,7 @@ export const Experience = ({ type }: { type: "experience" | "education" }) => {
           <div className="flex-1">
             <H
               type={Hprops.h3}
-              styles="pt-2 pb-4 font-bold text-gray-600"
+              styles="pt-2 pb-4 font-bold text-gray-600 dark:text-white"
               value={title}
             />
             {experience.map((exp, index) => (

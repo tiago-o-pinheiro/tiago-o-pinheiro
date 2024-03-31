@@ -18,7 +18,7 @@ export const Header = () => {
 
   return (
     <div>
-      <div className="bg-gradient-to-r from-green-400 to-blue-500 h-40"></div>
+      <div className="bg-gradient-to-r from-green-400 to-blue-500 dark:from-indigo-700 dark:to-gray-600 h-40"></div>
       <Section styles="px-4 max-w-screen-lg mx-auto">
         <div className="flex gap-8 flex-col md:flex-row">
           <div className="relative md:-top-12 -top-20 bg-blue-500 h-40 w-40 rounded-full ring-4 md:mx-0 mx-auto ring-blue-500">
@@ -29,10 +29,15 @@ export const Header = () => {
             />
           </div>
           <div className="relative -top-20 text-center md:text-left md:top-0">
-            <H type={Hprops.h1} styles="pt-2 font-bold text-gray-700">
+            <H
+              type={Hprops.h1}
+              styles="pt-2 font-bold text-gray-700 dark:text-white"
+            >
               {name}
             </H>
-            <P styles="pl-2 text-xl text-gray-600 ">{position}</P>
+            <P styles="pl-2 text-xl text-gray-600 dark:text-gray-300">
+              {position}
+            </P>
           </div>
         </div>
       </Section>

@@ -20,11 +20,11 @@ export const About = () => {
         <div className="pb-2">
           <H
             type={Hprops.h3}
-            styles="pt-2 pb-4 font-bold text-gray-600"
+            styles="pt-2 pb-4 font-bold text-gray-600 dark:text-white"
             value="section.about-me"
           />
           <div
-            className="md:pl-4"
+            className="md:pl-4 dark:text-gray-300"
             dangerouslySetInnerHTML={{ __html: content }}
           ></div>
         </div>

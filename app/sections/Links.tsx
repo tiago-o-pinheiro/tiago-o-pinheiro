@@ -44,8 +44,10 @@ export const Links = () => {
     <Section styles="md:px-4 px-2 relative -top-14 md:-top-6 max-w-screen-lg mx-auto">
       <div className="flex flex-col sm:flex-row md:flex md:gap-8 md:justify-between pt-4 md:divide-x md:divide-gray-200">
         <div className="md:pl-4 md:pb-0 pb-4">
-          <P styles="text-gray-600">{social.linkedIn.title}</P>
-          <div className="flex font-mono text-gray-400 gap-2">
+          <P styles="text-gray-600 dark:text-gray-300">
+            {social.linkedIn.title}
+          </P>
+          <div className="flex font-mono text-gray-400 gap-2 dark:text-blue-500">
             <PiLinkedinLogoThin className="text-xl" />
             <Link
               href={social.linkedIn.value}
@@ -57,8 +59,8 @@ export const Links = () => {
           </div>
         </div>
         <div className="md:pl-4 md:pb-0 pb-4">
-          <P styles="text-gray-600">{email.title}</P>
-          <div className="flex font-mono text-gray-400 gap-2">
+          <P styles="text-gray-600 dark:text-gray-300">{email.title}</P>
+          <div className="flex font-mono text-gray-400 gap-2 dark:text-blue-500">
             <PiAtThin className="text-xl" />
             <Link
               href="mailto:tiagoliver@protonmail.com"
@@ -70,15 +72,15 @@ export const Links = () => {
           </div>
         </div>
         <div className="md:pl-4 md:pb-0 pb-4">
-          <P styles="text-gray-600">{location.title}</P>
-          <div className="flex font-mono text-gray-400 gap-2">
+          <P styles="text-gray-600 dark:text-gray-300">{location.title}</P>
+          <div className="flex font-mono text-gray-400 gap-2 dark:text-blue-500">
             <PiHouseLight className="text-xl" />
             <P styles="text-sm ">{location.value}</P>
           </div>
         </div>
         <div className="md:pl-4 md:pb-0 pb-4">
-          <P styles="text-gray-600">{workPermit.title}</P>
-          <div className="flex font-mono text-gray-400 gap-2">
+          <P styles="text-gray-600 dark:text-gray-300">{workPermit.title}</P>
+          <div className="flex font-mono text-gray-400 gap-2 dark:text-blue-500">
             <PiBriefcaseLight className="text-xl" />
             <P styles="text-sm ">
               {workPermit.value.map((value, index) => (

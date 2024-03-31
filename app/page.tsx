@@ -14,7 +14,7 @@ import { SkillsSection } from "./sections/Skills";
 export default function Page() {
   return (
     <GlobalStore>
-      <Container styles="p-0">
+      <Container styles="p-0 bg-white dark:bg-gray-800">
         <SettingsBar />
         <Header />
         <Links />
@@ -24,8 +24,8 @@ export default function Page() {
         <Experience type="experience" />
         <Experience type="education" />
         <Personal />
+        <Footer />
       </Container>
-      <Footer />
     </GlobalStore>
   );
 }

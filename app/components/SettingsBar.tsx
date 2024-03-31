@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import {
   PiTranslateThin,
   PiPrinterThin,
@@ -46,8 +46,16 @@ export const SettingsBar = () => {
   const [lang, setLang] = useState<boolean>(false);
   const [theme, setTheme] = useState<"dark" | "light">("light");
 
+  useEffect(() => {
+    if (theme === "dark") {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
+  }, [theme]);
+
   return (
-    <div className="h-8 flex justify-end bg-gradient-to-r from-green-400 to-blue-500">
+    <div className="h-8 flex justify-end bg-gradient-to-r from-green-400 to-blue-500 dark:from-indigo-700 dark:to-gray-600">
       <div className="flex w-auto px-4 p-2 divide-x divide-gray-200 items-center text-white">
         <div className="px-4 cursor-pointer" onClick={() => setLang(!lang)}>
           <PiTranslateThin />

@@ -19,13 +19,18 @@ type SkillListProps = {
 const SkillList = ({ list, title }: SkillListProps) => {
   return (
     <div className="pl-2 md:pl-0">
-      <H type={Hprops.h4} styles="pb-2 text-gray-600  font-semibold">
+      <H
+        type={Hprops.h4}
+        styles="pb-2 text-gray-600 font-semibold dark:text-gray-300"
+      >
         {title}
       </H>
       <ul className="pl-4">
         {list.map((skill, index) => (
           <li key={index} className="list-disc">
-            <P styles="text-gray-400 font-mono">{skill.name}</P>
+            <P styles="text-gray-400 font-mono dark:text-gray-200">
+              {skill.name}
+            </P>
           </li>
         ))}
       </ul>
@@ -43,7 +48,7 @@ export const SkillsSection = () => {
     <Section styles="px-2 md:px-8 w-full max-w-screen-lg mx-auto relative -top-12 md:top-0">
       <H
         type={Hprops.h3}
-        styles="py-2 font-bold text-gray-600"
+        styles="py-2 font-bold text-gray-600 dark:text-white"
         value="section.technical-skills"
       />
       <div className="grid grid-cols-2 gap-x-4 gap-y-2 md:pl-4">
@@ -51,7 +56,9 @@ export const SkillsSection = () => {
           <SkillList
             key={index}
             title={item}
-            list={list.filter(({ category }) => category === item)}
+            list={list.filter(
+              ({ category }: { category: string }) => category === item
+            )}
           />
         ))}
       </div>
