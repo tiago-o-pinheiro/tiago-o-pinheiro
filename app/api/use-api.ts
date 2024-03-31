@@ -48,9 +48,17 @@ type Language = {
   proficiency: string;
 };
 
-type Skills = {
+type Skill = {
   name: string;
   category: string;
+};
+
+type Languagues = {
+  [key: string]: Language[];
+};
+
+type Skills = {
+  [key: string]: Skill[];
 };
 
 type SectionProps = {
@@ -78,16 +86,8 @@ type SectionProps = {
       content: string;
     };
   };
-  languages: {
-    en: Language[];
-    es: Language[];
-    pt: Language[];
-  };
-  skills: {
-    en: Skills[];
-    es: Skills[];
-    pt: Skills[];
-  };
+  languages: Languagues;
+  skills: Skills;
   resume: Profile;
 };
 

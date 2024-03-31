@@ -6,8 +6,13 @@ import React from "react";
 import { useApi } from "../api/use-api";
 import { P } from "../components/P";
 
+type LanguageItem = {
+  name: string;
+  proficiency: string;
+};
+
 export const Languagues = () => {
-  const section = useApi("languages");
+  const section = useApi("languages") as LanguageItem[];
 
   return (
     <Section styles="px-2 md:px-8 w-full max-w-screen-lg mx-auto relative -top-12 md:top-0">

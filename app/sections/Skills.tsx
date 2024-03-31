@@ -39,7 +39,7 @@ const SkillList = ({ list, title }: SkillListProps) => {
 };
 
 export const SkillsSection = () => {
-  const list = useApi("skills");
+  const list = useApi("skills") as Skill[];
   const categoryName = [
     ...new Set(list.map(({ category }) => category)),
   ] as string[];
