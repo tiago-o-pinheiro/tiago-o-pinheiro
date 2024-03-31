@@ -3,18 +3,27 @@ import en from "../translations/en.json";
 import es from "../translations/es.json";
 import pt from "../translations/pt.json";
 
-type UseTranslationProps = {
-  key: string | undefined;
+type Language = {
+  [key: string]: string;
 };
 
-const LANGUAGUES = {
+type UseTranslationProps = {
+  [key: string]: Language;
+};
+
+const LANGUAGES: UseTranslationProps = {
   en,
   es,
   pt,
 };
 
-export const useTranslation = ({ key }: UseTranslationProps) => {
+export const useTranslation = (key: string) => {
   const { language } = useGlobalContext();
+  const selectedLanguage = LANGUAGES[language.lang];
 
-  return LANGUAGUES[language.lang][key] || false;
+  if (selectedLanguage && selectedLanguage[key]) {
+    return selectedLanguage[key];
+  } else {
+    return false;
+  }
 };

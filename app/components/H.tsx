@@ -7,7 +7,7 @@ type CompomentProps = {
   children?: ReactNode;
   type: Hprops;
   styles?: string;
-  value?: string | undefined;
+  value: string;
 };
 
 enum Sizes {
@@ -33,7 +33,7 @@ export const H = ({
   children,
   value,
 }: CompomentProps) => {
-  const translation = useTranslation({ key: value });
+  const translation = useTranslation(value);
   const className = `${color} ${styles} ${Sizes[Hprops[type]]} mb-2 font-sans`;
   const UI = Hprops[type];
 
