@@ -5,11 +5,11 @@ import { useTranslation } from "../hooks/use-translation";
 type CompomentProps = {
   children?: ReactNode;
   styles?: string;
-  value: string;
+  value?: string;
 };
 
 export const P = ({ styles = "", children, value }: CompomentProps) => {
-  const translation = useTranslation(value);
+  const translation = useTranslation(value || "");
   const className = `${styles} mb-2`;
 
   if (translation) {
