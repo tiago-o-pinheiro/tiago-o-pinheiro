@@ -68,9 +68,10 @@ export const SettingsBar = () => {
             <PiMoonFill onClick={() => setTheme("light")} />
           )}
         </div>
-        <div className="px-4 cursor-pointer">
+        {/* <div className="px-4 cursor-pointer">
+        Temporary disabling this funcitonality
           <PiPrinterThin />
-        </div>
+        </div> */}
       </div>
     </div>
   );
